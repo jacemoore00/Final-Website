@@ -1,0 +1,16 @@
+﻿.flex-container {
+    display: flex;
+    text-align: center;
+    font-family: Helvetica Neue;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid black;
+    background-color: #292029;
+    padding: 10px;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 

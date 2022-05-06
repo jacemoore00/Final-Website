@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html style="font-size: 20px;font-family: Helvetica Neue;color : black; background-color: #f9faf9;" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Buy Parts
+    </title>
+</head>
+<body>
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/slicknav.css">
+    <link rel="stylesheet" href="Styles/slideshow.css">
+    <link rel="stylesheet" href="Styles/colunm.css">
+    <script src="Styles/https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Styles/jquery.slicknav.js"></script>
+    <script src="Styles/main.js"></script>
+    <script>
+        $('.topnav').slicknav();
+    </script>
+
+<h1>Moore Imports</h1>
+
+<div class="topnav">
+    <a href="Index.html">Home</a>
+    <a href="japaneseimports.html">Japanese Imports</a>
+    <a href="europeanimports.html">European Imports</a>
+    <a class="active"href="buyparts.html">Buy parts</a>
+    <a href="sellcar.html">Sell your own car</a>
+    <a href="faq.html">FAQs</a>
+</div>
+</body>
+
+<div class="buttons" id="myBtnContainer">
+    <h5>Make filter</h5>
+    <button class="btn active" onclick="filterSelection('all')"> Show all </button>
+    <button class="btn" onclick="filterSelection('intakes')"> intakes </button>
+    <button class="btn" onclick="filterSelection('intercooler')"> intercooler </button>
+    <button class="btn" onclick="filterSelection('shiftknob')"> Shift Knobs </button>
+    <p>Warning!!! Products will not show up until selecting a filter!!!</p>
+</div>
+
+<div class="container">
+    <div class="filterDiv card intakes">
+        <img class="storeimg" src="Media/part1.webp"Denim Jeans" style="width:100%">
+        <h4>Intake</h4>
+        <p class="price">$19.99</p>
+        <p>Cold air intake</p>
+        <p><button>Click to send invoice</button></p>
+    </div>
+
+    <div class="filterDiv card intercooler">
+        <img class="storeimg" src="Media/part2.png"Denim Jeans" style="width:100%">
+        <h4>Intercooler</h4>
+        <p class="price">$10,000</p>
+        <p>Intercooler</p>
+        <p><button>Click to send invoice</button></p>
+    </div>
+    
+    <div class="filterDiv card intercooler">
+        <img class="storeimg" src="Media/part3.png"Denim Jeans" style="width:100%">
+        <h4>Intercooler</h4>
+        <p class="price">$10,000</p>
+        <p>Intercooler</p>
+        <p><button>Click to send invoice</button></p>
+    </div>
+
+        <div class="filterDiv card shiftknob">
+        <img class="storeimg" src="Media/part4.png"Denim Jeans" style="width:100%">
+        <h4>Shift Knob</h4>
+        <p class="price">$10,000</p>
+        <p>Shifter knobs</p>
+        <p><button>Click to send invoice</button></p>
+    </div>
+</div>
+</html>

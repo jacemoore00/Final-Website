@@ -1,0 +1,171 @@
+﻿h1 {
+    text-align: center;
+    font-size: 75px;
+}
+
+h2 {
+  color: #f6f7f7; 
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Helvetica Neue;
+}
+
+h6 {
+  border: 2px solid #292029;
+  background-color: #292029;
+  color: #f6f7f7;
+  padding: 50px;
+  margin: 30px 40px;
+  font-size: 30px;
+}
+
+h5{
+  margin: 5px 10px;
+}
+
+ul {
+  font-size: 25px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #d87a00;
+}
+
+.imgsize {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.faq {
+  border: 2px solid #292029;
+  background-color: #292029;
+  margin: 10px 10px;
+  color: #f6f7f7;
+}
+
+/*CSS FOR STORE PAGES*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 288px;
+  margin: 20px 40px;
+  text-align: center;
+  font-family: arial;
+  border-radius: 10px;
+  float: left;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #f9faf9;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/*CSS FOR FILTER*/
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+/* Style the buttons */
+.buttons {
+  border: 2px solid #292029;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 30px;
+  background-color: #292029;
+  cursor: pointer;
+  color: #f9faf9;
+  display: grid;
+  margin: 5px 10px;
+  width: 100px;
+}
+
+.btn:hover {
+  background-color: #d87a00;
+}
+
+.btn.active {
+  background-color: #c16159;
+  color: #f9faf9;
+}
+
+/*css for naviagtion bar*/
+.topnav {
+    overflow: hidden;
+    background-color: #292029;
+    font-family: Helvetica Neue;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f6f7f7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #d87a00;
+    color: #f9faf9;
+  }
+  
+  .topnav a.active {
+    background-color: #c16159;
+    color: #f9faf9;
+  }
+  
+  .slicknav_menu{
+    display: none;
+  }
+  @media screen and (max-width: 1000px) {
+      .slicknav_menu{
+      display: block;
+    }
+  
+    .topnav {
+          display:none;
+      }
+  }

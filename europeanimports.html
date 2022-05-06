@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html style="font-size: 20px;font-family: Helvetica Neue;color : black; background-color: #f9faf9;" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        European Imports 
+    </title>
+</head>
+<body>
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/slicknav.css">
+    <link rel="stylesheet" href="Styles/slideshow.css">
+    <link rel="stylesheet" href="Styles/colunm.css">
+    <script src="Styles/https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Styles/jquery.slicknav.js"></script>
+    <script src="Styles/main.js"></script>
+    <script>
+        $('.topnav').slicknav();
+    </script>
+
+<h1>Moore Imports</h1>
+
+<div class="topnav">
+    <a href="Index.html">Home</a>
+    <a href="japaneseimports.html">Japanese Imports</a>
+    <a class="active" href="europeanimports.html">European Imports</a>
+    <a href="buyparts.html">Buy parts</a>
+    <a href="sellcar.html">Sell your own car</a>
+    <a href="faq.html">FAQs</a>
+</div>
+</body>
+
+<div class="buttons" id="myBtnContainer">
+    <h5>Make filter</h5>
+    <button class="btn active" onclick="filterSelection('all')"> Show all </button>
+    <button class="btn" onclick="filterSelection('mercades')"> Mercades </button>
+    <button class="btn" onclick="filterSelection('audi')"> Audi </button>
+    <button class="btn" onclick="filterSelection('volkswagon')"> Volkswagon </button>
+    <button class="btn" onclick="filterSelection('rollsroyce')"> Rolls Royace </button>
+    <p>Warning!!! Products will not show up until selecting a filter!!!</p>
+</div>
+
+<div class="container">
+    <div class="filterDiv card mercades">
+        <img class="storeimg" src="Media/mercades.webp"Denim Jeans" style="width:100%">
+        <h4>Mercades</h4>
+        <p class="price">$14,000</p>
+        <p>1982 380 SL Convertible</p>
+        <p><button>Click to contact us</button></p>
+    </div>
+
+    <div class="filterDiv card audi">
+        <img class="storeimg" src="Media/audi.webp"Denim Jeans" style="width:100%">
+        <h4>Audi</h4>
+        <p class="price">$16,000</p>
+        <p>1990 100 Sedan</p>
+        <p><button>Click to contact us</button></p>
+    </div>
+
+    <div class="filterDiv card rollsroyce">
+        <img class="storeimg" src="Media/rollsroyce.webp"Denim Jeans" style="width:100%">
+        <h4>Rolls Royace</h4>
+        <p class="price">$20,000</p>
+        <p>1985 Silver Spirit Sedan</p>
+        <p><button>Click to contact us</button></p>
+    </div>
+
+    <div class="filterDiv card audi">
+        <img class="storeimg" src="Media/audi1.webp"Denim Jeans" style="width:100%">
+        <h4>Audi</h4>
+        <p class="price">$14,000</p>
+        <p>1983 Quattri Coupe</p>
+        <p><button>Click to contact us</button></p>
+    </div>
+
+    <div class="filterDiv card mercades">
+        <img class="storeimg" src="Media/mercades1.webp"Denim Jeans" style="width:100%">
+        <h4>Mercades</h4>
+        <p class="price">$8,000</p>
+        <p>1993 500 SL Convertible</p>
+        <p><button>Click to contact us</button></p>
+    </div>
+
+    <div class="filterDiv card volkswagon">
+        <img class="storeimg" src="Media/volkswagon1.webp"Denim Jeans" style="width:100%">
+        <h4>Volkswagon</h4>
+        <p class="price">$14,000</p>
+        <p>1984 Scirocco Hatchback</p>
+        <p><button>Click to contact us</button></p>
+    </div>
+
+</div>
+</html>
